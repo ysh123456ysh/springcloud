@@ -70,6 +70,13 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!--断路器-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
+			<version>1.4.4.RELEASE</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
